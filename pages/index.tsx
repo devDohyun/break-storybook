@@ -1,5 +1,7 @@
-const Home = () => {
-  return <>스토리북을 써보자 !</>
+import Home from '../components/Home'
+
+const PageHome = () => {
+  return <Home />
 }
 
-export default Home
+export default PageHome
